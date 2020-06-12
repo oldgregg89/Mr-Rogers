@@ -1,6 +1,6 @@
 # _Mr Rodgers_
 
-#### _This program will take a user input and out put Beep, Boop & Won't you be my neighbor?, 2020 ver 1.0_
+#### _This program will take a user input and out put Beep, Boop & Won't you be my neighbor? with an array counting up to the inputed number., 2020 ver 1.0_
 
 #### By _Ian Gregg_
 [Mr-Rogers](https://github.com/oldgregg89/Mr-Rogers)

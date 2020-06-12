@@ -1,10 +1,14 @@
 //Business logic
 function numbertoArray(number){
-  let newArr = ""
-  let 
+  let newArr = []
+  let bp = "Beep!"
+  let bop = "Boop!"
+  let wybn = "Won't you be my neighbor?"
 
-  for (var i=0;i<=number,i++)
-    
+  for (var i=0;i<=number,i++);
+
+
+
 
 }
 
