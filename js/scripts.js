@@ -27,11 +27,6 @@ function beepBoopNeighbor(arrayOfNumbers){
   }   
 }
 
-//Working with double digits
-function doubleDigits(){
-
-}
-
 // UI Logic
 $(document).ready(function(){
   $("#numberConverter").submit(function(event) {
