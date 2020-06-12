@@ -17,19 +17,22 @@ function beepBoopNeighbor(arrayOfNumbers){
   for (var index=0;index < arrayOfNumbers.length;index++){
     let value = arrayOfNumbers[index]
     debugger
-    if (value.indexOf(1)){
-      newArr2+="Beep!"
+    if (value == 1){
+      newArr2 +="Beep!"
     };
-    if (value.includes(2)){
-      newArr2+="Boop!"
+    if (value == 2){
+      newArr2 +="Boop!"
       
-    }
-    if (value.includes(3)){
-      newArr2+="Won't you be my neighbor?"
-    }
+    };
+    if (value == 3){
+      newArr2 +="Won't you be my neighbor?"
+    };
+    {
+      newArr2.push()
+    };
   }
   debugger
-  return sentence   
+  return newArr2   
 }
 
 // UI Logic
