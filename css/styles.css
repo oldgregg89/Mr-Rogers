@@ -1,5 +1,14 @@
-img {
-  width: 500px;
-  height: 600px;
-  float: center;
+body {
+  background-image: url(https://s3.us-east-2.amazonaws.com/inspire-kindness/posts/September2019/Jig6jU2g5Gg0v5yBmTAh.png);
+  background-repeat: no-repeat;
+  background-size: 1350px 1200px;
+}
+
+.jumbotron {
+  background-color: black;
+  color: antiquewhite;
+}
+
+label {
+  color: antiquewhite
 }

@@ -25,7 +25,21 @@ _No known bugs_
 
 ## Specs
 
+**Behavior**: Program will return true if 1 is within the array.
+* input: '1'
+* input: 'Beep!'
 
+**Behavior**: Program will return true if 2 is within the array.
+* input: '2'
+* input: 'Boop!'
+
+**Behavior**: Program will return true if 2 is within the array.
+* input: '1'
+* input: 'Won't you be my neighbor?!'
+
+**Behavior**: Program will return true if the first portion of the digit equals 1,2,or 3 within the array.
+* input: '1'
+* input: 'Beep!, Boop!, or Won't you be my neighbor?'
 
 ## Support and contact details
 
