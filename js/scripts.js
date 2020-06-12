@@ -5,7 +5,7 @@ function numbertoArray(number){
   let bop = "Boop!"
   let wybn = "Won't you be my neighbor?"
 
-  for (var i=0;i<=number,i++);
+  for (var i=0;i<=number,i++) {
     if (i = 1){
       String(i)=bp
       newArr.push(i)
@@ -14,9 +14,12 @@ function numbertoArray(number){
       String(i)=bop
       newArr.push(i)
     }
+  }
+  newArr.push(i)
+}    
   
     
-    newArr.push(i)
+    
 
 
 
