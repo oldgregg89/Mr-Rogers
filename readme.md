@@ -8,7 +8,7 @@
 
 ## Description
 
-_This program will return an array 0 to userinput  repacing the values 1= Beep, 2=Boop & 3= Wont you be my neighbor. When numbers are in the double digits it will go with the 2nd value._
+_This program will return an array 0 to userinput  repacing the values 1= Beep, 2=Boop & 3= Wont you be my neighbor. When numbers are in the double digits it will go with the first portion of the value._
 
 ## Setup/Installation Requirements
 
@@ -24,6 +24,10 @@ __
 _No known bugs_
 
 ## Specs
+
+**Behavior**: The program returns a range of numbers from 0 to the users inputted number
+Input: "4"
+Output: "0, 1, 2, 3, 4"
 
 **Behavior**: Program will return true if 1 is within the array.
 * input: '1'

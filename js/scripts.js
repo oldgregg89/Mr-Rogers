@@ -5,7 +5,7 @@ function createArrayOfNumbers(number){
   // Loop number amount oftimes and addthat number to thearray
   let newArr=[]
 
-  for (var i=0;i<number;i++){
+  for (var i=0;i<=number;i++){
     newArr.push(i)
   }
   return newArr
@@ -13,17 +13,19 @@ function createArrayOfNumbers(number){
 
 // Go through an array and determine if we need to beep boop or wybmn
 function beepBoopNeighbor(arrayOfNumbers){
-  let sentence = '';
-  for (var i=0;i < arrayOfNumbers.length;i++){
-    if (arrayOfNumbers.indexOf("1")){
-      sentence+="Beep!"
+  let newArr2 = [];
+  for (var index=0;index < arrayOfNumbers.length;index++){
+    let value = arrayOfNumbers[index]
+    debugger
+    if (value.indexOf(1)){
+      newArr2+="Beep!"
     };
-    if (arrayOfNumbers.includes("2")){
-      sentence+="Boop!"
+    if (value.includes(2)){
+      newArr2+="Boop!"
       
     }
-    if (arrayOfNumbers.includes("3")){
-      sentence+="Won't you be my neighbor?"
+    if (value.includes(3)){
+      newArr2+="Won't you be my neighbor?"
     }
   }
   debugger
