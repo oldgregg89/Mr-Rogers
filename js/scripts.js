@@ -1,38 +1,35 @@
 //Business logic
-function numbertoArray(number){
-  let newArr = []
-  let bp = "Beep!"
-  let bop = "Boop!"
-  let wybn = "Won't you be my neighbor?"
 
-  for (var i=0;i<=number,i++) {
-    if (i = 1){
-      String(i)=bp
-      newArr.push(i)
-    }
-    if (i = 2){
-      String(i)=bop
-      newArr.push(i)
-    }
-  }
-  newArr.push(i)
-}    
-  
-    
-    
-
-
-
+// Function that creates array
+function createArrayOfNumbers(number){
+  // Loop number amount oftimes and addthat number to thearray
 }
 
+// Go through an array and determine if we need to beep boop or wybmn
+function beepBoopNeighbor(arrayOfNumbers){
+  let sentence = '';
+
+  for (var i=0;i<number;i++) {
+    if (arrayOfNumbers[i] == 1){
+      sentence.concat("Beep!")
+    };
+    if (arrayOfNumbers[i] == 2){
+      sentence.concat("Boop!")
+      
+    }
+    if (arrayOfNumbers[i] == 3){
+      sentence.concat("Won't you be my neighbor?")
+    }
+  return sentence   
+}
 
 // UI Logic
 $(document).ready(function(){
   $("#numberConverter").submit(function(event) {
     event.preventDefault();
     let number = $("input#enteredNumber").val();
-    let results = numbertoArray(number);
-
+    let results = createArrayOfNumbers(number);
+    beepBoopNeighbor(results);
     $("#output").text(results);
 
   });
