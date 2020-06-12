@@ -15,13 +15,13 @@ function createArrayOfNumbers(number){
 function beepBoopNeighbor(arrayOfNumbers){
   for (var index=0;index < arrayOfNumbers.length;index++){
     let value = arrayOfNumbers[index]
-    if (value == 1){
+    if (value.toString().includes("1")){
       arrayOfNumbers[index] = "Beep!"
     }
-    if (value == 2){
+    if (value.toString().includes("2")){
       arrayOfNumbers[index] = "Boop!"
     }
-    if (value == 3){
+    if (value.toString().includes("3")){
       arrayOfNumbers[index] = "Won't you be my neighbor?"
     }
   }   

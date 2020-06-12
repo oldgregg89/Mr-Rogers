@@ -15,13 +15,13 @@ _This program will return an array 0 to userinput  repacing the values 1= Beep, 
 
 * Have an internet connection 
 * Create a GitHub account
-* Clone this repo to yuor desktop and run npm install to install all dependences.
+* Clone this repo to your desktop and open with visual studio code.
 
 __
 
 ## Known Bugs
 
-_No known bugs_
+_Issues with recognizeing double digits (fixed)_
 
 ## Specs
 
