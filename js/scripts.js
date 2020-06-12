@@ -18,21 +18,27 @@ function beepBoopNeighbor(arrayOfNumbers){
     let value = arrayOfNumbers[index]
     debugger
     if (value == 1){
-      newArr2 +="Beep!"
+      value="Beep!"
+      newArr2.push(value)
     };
     if (value == 2){
-      newArr2 +="Boop!"
-      
+      value="Boop!"
+      newArr2.push(value)
     };
     if (value == 3){
-      newArr2 +="Won't you be my neighbor?"
+      value="Won't you be my neighbor?"
+      newArr2.push(value)
     };
     {
-      newArr2.push()
+      newArr2.push(value)
     };
   }
   debugger
   return newArr2   
+}
+
+function doubleDigits(){
+  
 }
 
 // UI Logic
