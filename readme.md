@@ -26,8 +26,8 @@ _No known bugs_
 ## Specs
 
 **Behavior**: The program returns a range of numbers from 0 to the users inputted number
-Input: "4"
-Output: "0, 1, 2, 3, 4"
+* Input: "4"
+* Output: "0, 1, 2, 3, 4"
 
 **Behavior**: Program will return true if 1 is within the array.
 * input: '1'
