@@ -12,3 +12,9 @@ body {
 label {
   color: antiquewhite
 }
+
+#output {
+  color: whitesmoke;
+  background-color: black;
+  border-style: inset;
+}
