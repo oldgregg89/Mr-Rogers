@@ -3,6 +3,11 @@
 // Function that creates array
 function createArrayOfNumbers(number){
   // Loop number amount oftimes and addthat number to thearray
+  let newArr=[]
+
+  for (var i=0;i<number;i++){
+    newArr.push[i]
+  }
 }
 
 // Go through an array and determine if we need to beep boop or wybmn
@@ -31,6 +36,5 @@ $(document).ready(function(){
     let results = createArrayOfNumbers(number);
     beepBoopNeighbor(results);
     $("#output").text(results);
-
   });
-});
+})
