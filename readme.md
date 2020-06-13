@@ -8,7 +8,7 @@
 
 ## Description
 
-_This program will return an array 0 to userinput  repacing the values 1= Beep, 2=Boop & 3= Wont you be my neighbor. When numbers are in the double digits it will go with the first portion of the value._
+_This program will take user inputed number and  return an array repacing the values 1= Beep, 2=Boop & 3= Wont you be my neighbor. When numbers are in the double digits it will go with the highest value._
 
 ## Setup/Installation Requirements
 
