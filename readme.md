@@ -30,19 +30,19 @@ _Issues with recognizeing double digits (fixed)_
 * Output: "0, 1, 2, 3, 4"
 
 **Behavior**: Program will replace the 1 with 'Beep' and return it in the string.
-* input: '1'
+* Input: '1'
 * Output: 'Beep!'
 
 **Behavior**: Program will replace the 2 with 'Boop' and return it in the string.
-* input: '2'
+* Input: '2'
 * Output: 'Boop!'
 
 **Behavior**: Program will replace the 3 with 'Won't you be my neighbor?!' and return it in the string.
-* input: '3'
+* Input: '3'
 * Output: 'Won't you be my neighbor?!'
 
 **Behavior**: Program will return true if the first portion of the digit equals 1,2,or 3 within the array but will always go with th largest number.
-* input: '13'
+* Input: '13'
 * Output: 'Won't you be my neighbor?'
 
 ## Support and contact details
