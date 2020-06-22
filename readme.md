@@ -29,21 +29,21 @@ _Issues with recognizeing double digits (fixed)_
 * Input: "4"
 * Output: "0, 1, 2, 3, 4"
 
-**Behavior**: Program will return true if 1 is within the array.
+**Behavior**: Program will replace the 1 with 'Beep' and return it in the string.
 * input: '1'
-* input: 'Beep!'
+* Output: 'Beep!'
 
-**Behavior**: Program will return true if 2 is within the array.
+**Behavior**: Program will replace the 2 with 'Boop' and return it in the string.
 * input: '2'
-* input: 'Boop!'
+* Output: 'Boop!'
 
-**Behavior**: Program will return true if 3 is within the array.
+**Behavior**: Program will replace the 3 with 'Won't you be my neighbor?!' and return it in the string.
 * input: '3'
-* input: 'Won't you be my neighbor?!'
+* Output: 'Won't you be my neighbor?!'
 
-**Behavior**: Program will return true if the first portion of the digit equals 1,2,or 3 within the array.
+**Behavior**: Program will return true if the first portion of the digit equals 1,2,or 3 within the array but will always go with th largest number.
 * input: '13'
-* input: 'Won't you be my neighbor?'
+* Output: 'Won't you be my neighbor?'
 
 ## Support and contact details
 
